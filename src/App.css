@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition:  0.5s;
+
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.but:hover{
+ transform: scale(1.1);
+ transition:  0.5s;
+ box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.5);
+}
+.but{
+  transition:  0.5s;
+}
+
